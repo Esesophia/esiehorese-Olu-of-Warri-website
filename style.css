@@ -184,9 +184,10 @@ ul li {
     bottom:30px;
 }
 .footer-nav-btn {
-    margin-bottom: -20px;
+    margin-bottom: -15px;
     z-index: 2;
     border: 0;
+    padding: 0.4em 0.2em;
 }
 .move-footer-nav {
     bottom: -30px
@@ -196,6 +197,7 @@ ul li {
 }
 .footer-nav-list {
     width: 780px;
+    height:50px;
 }
 .footer-navlist-div {
     overflow: scroll;
@@ -244,14 +246,9 @@ ul li {
     .present-ruler-div {
         display: none;
     }
-    /* .footer-nav-list {
-        width: 1000px;
-        /* overflow: scroll;
+    .footer-nav-list {
+        height:40px;
     }
-    .footer-navlist-div {
-        overflow: scroll;
-        border-radius: 10px;
-    } */
 }
 @media screen and (min-width: 567px) {
     .col-sm-1{
