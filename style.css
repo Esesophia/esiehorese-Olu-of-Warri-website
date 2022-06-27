@@ -184,10 +184,12 @@ ul li {
     bottom:30px;
 }
 .footer-nav-btn {
-    margin-bottom: -15px;
+    margin-bottom: -10px;
     z-index: 2;
     border: 0;
-    padding: 0.4em 0.2em;
+    padding: 0.5em 0.2em;
+    height:20px;
+    width:30px
 }
 .move-footer-nav {
     bottom: -30px
