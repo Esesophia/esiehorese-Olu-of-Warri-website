@@ -138,9 +138,9 @@ ul li {
     margin-top: 2.5em;
 }
 .grey-border {
-    border:3px solid grey;
+    border:1px solid grey;
     width: 100px;
-    margin:0 auto;
+    margin:5px auto;
 }
 .ruling-house-search {
     height: 25vh;
