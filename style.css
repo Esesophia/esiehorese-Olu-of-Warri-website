@@ -272,6 +272,10 @@ ul li {
         height:40px;
         padding:0.3em
     }
+     .footer-nav-list {
+        height:50px;
+        padding: 1em;
+    }
     .icon {
         padding: 0.3em 0.7em;
     }
