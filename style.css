@@ -35,6 +35,10 @@ input {
 button:hover {
     cursor: pointer;
 }
+.input:focus {
+    outline:none;
+    
+}
 .border {
     border: 1px solid black;
 }
@@ -53,7 +57,8 @@ ul li {
     justify-content: space-between;
     align-items: center
 }
-.d-flex {
+.d-flex,
+.desktop-none {
     display: flex;
 }
 .d-none,
@@ -62,9 +67,9 @@ ul li {
 .content {
     display: none;
 }
-.desktop-none {
+/* .desktop-none {
     display: block;
-}
+} */
 .justify-space-between {
     justify-content: space-between;
 }
@@ -90,6 +95,10 @@ ul li {
 .text-bold {
     font-weight: bold;
 }
+.text-align {
+    text-align: center;
+}
+
 .bg-red {
     background-color: rgb(211, 0, 2);
 }
@@ -104,6 +113,9 @@ ul li {
 }
 .mb-1 {
     margin-bottom: 1em
+}
+.m-1 {
+    margin: 1em 0;
 }
 .p-0 {
     padding: 0.55em 0;
@@ -130,7 +142,7 @@ ul li {
     bottom: 0;
     width: 100vw;
     background-color: white;
-    height:80vh;
+    height:60vh;
     border-radius: 20px 20px 0 0;
     padding: 2em;
 }
@@ -138,9 +150,9 @@ ul li {
     margin-top: 2.5em;
 }
 .grey-border {
-    border:1px solid grey;
+    border:3px solid grey;
     width: 100px;
-    margin:10px auto;
+    margin:0 auto;
 }
 .ruling-house-search {
     height: 25vh;
@@ -184,26 +196,34 @@ ul li {
     bottom:30px;
 }
 .footer-nav-btn {
-    margin-bottom: -15px;
-    z-index: 2;
+    margin-bottom: -10px;
+    z-index: 5;
     border: 0;
 }
 .icon {
-    padding: 0.5em;
+    padding: 1em 1em;
 }
 .move-footer-nav {
-    bottom: -30px
-}
-.footer-nav-list div {
-    width:18%;
+    bottom: -30px;
 }
 .footer-nav-list {
     width: 780px;
-    height:50px;
+    height:60px;
+    padding: 1em;
+}
+.footer-nav-list div {
+    width:18%;
+    color: white;
+    padding: 0.2em;
+    border-radius: 20px;
+}
+.footer-nav-list > div:hover {
+    background-color: rgba(211,211,211, 0.5);
+    cursor: pointer;
 }
 .footer-navlist-div {
     overflow: scroll;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .footer-navlist-div::-webkit-scrollbar {
    display: none;
@@ -250,7 +270,14 @@ ul li {
     }
     .footer-nav-list {
         height:40px;
+        padding:0.3em
     }
+    .icon {
+        padding: 0.3em 0.7em;
+    }
+    .ruling-leaders-div::-webkit-scrollbar {
+        display: none;
+     }
 }
 @media screen and (min-width: 567px) {
     .col-sm-1{
