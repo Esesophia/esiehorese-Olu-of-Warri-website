@@ -268,12 +268,8 @@ ul li {
     .present-ruler-div {
         display: none;
     }
-    .footer-nav-list {
-        height:40px;
-        padding:0.3em
-    }
      .footer-nav-list {
-        height:50px;
+        height:55px;
         padding: 1em;
     }
     .icon {
